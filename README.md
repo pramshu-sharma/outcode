@@ -8,8 +8,10 @@ To use the bit.ly clone app please follow the steps:
 4. Run the development server.
 
 URL routes:
-/ (root) - For creating hash IDs to shorten URLs.
-/<str:hash_id> - For redirecting to the original URL via the hashed URL.
+
+/(root) - For creating hash IDs to shorten URLs.
+
+/(str:hash_id) - For redirecting to the original URL via the hashed URL.
 
 Screenshots:
 
